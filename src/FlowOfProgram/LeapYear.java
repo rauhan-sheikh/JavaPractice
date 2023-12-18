@@ -6,6 +6,7 @@ public class LeapYear {
         System.out.print("Enter Year: ");
         int year = input.nextInt();
         System.out.println("Leap Year: " + leapYear(year));
+        input.close();
 
     }
     public static boolean leapYear(int y){

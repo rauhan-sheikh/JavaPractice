@@ -11,5 +11,6 @@ public class Sum {
         int b = input.nextInt();
         int sum = a+b;
         System.out.println("Sum is " + sum);
+        input.close();
     }
 }

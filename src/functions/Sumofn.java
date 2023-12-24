@@ -1,7 +1,7 @@
 package functions;
 
 import java.util.Scanner;
-
+// Sum of n natural numbers
 public class Sumofn {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
